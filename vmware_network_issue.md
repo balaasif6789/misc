@@ -6,3 +6,5 @@ Add the following lines in <b>/etc/network/interfaces/</b>
 <i>auto eth0 <br>
 allow-hotplug eth0 <br>
 iface eth0 inet dhcp </i>
+
+Restart the service using <b> sudo service networking restart </b>
